@@ -80,7 +80,7 @@ export default function AdminReportsPage() {
 
                         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end' }}>
                             <Button variant="outline" onClick={() => handleDismiss(report.id)}>Dismiss</Button>
-                            <Button variant="destructive">Take Action</Button>
+                            <Button style={{ backgroundColor: 'hsl(var(--destructive))', color: 'hsl(var(--destructive-foreground))' }}>Take Action</Button>
                         </div>
                     </div>
                 ))}
