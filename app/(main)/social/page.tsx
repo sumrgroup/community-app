@@ -109,7 +109,7 @@ export default function SocialEventsPage() {
                                     fullWidth
                                     size="lg"
                                     onClick={() => handleBook(event.id)}
-                                    variant={isBooked ? 'secondary' : 'default'}
+                                    variant={isBooked ? 'secondary' : 'primary'}
                                 >
                                     {isBooked ? 'Ticket Booked' : 'Book Ticket'}
                                 </Button>
